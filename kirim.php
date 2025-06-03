@@ -23,7 +23,7 @@ try {
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;  
 
-    $mail->setFrom('moezanni@gmail.com', 'tutorial malasngoding');
+    $mail->setFrom('kioscodelab@gmail.com', 'tutorial malasngoding');
         $mail->addAddress($email); 
 
         $mail->isHTML(true);
